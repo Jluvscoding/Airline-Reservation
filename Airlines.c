@@ -21,14 +21,13 @@ typedef struct {
     float price;
 } Flight;
 
-// Structure for Passenger information
 typedef struct {
     int passenger_id;
     char name[STRING_SIZE];
     char contact_info[STRING_SIZE];
 } Passenger;
 
-// Structure for Booking information
+
 typedef struct {
     int passenger_id;
     char flight_number[STRING_SIZE];
