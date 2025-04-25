@@ -9,7 +9,7 @@
 #define MAX_SEATS 150
 #define STRING_SIZE 50
 
-// Structure for Flight information
+
 typedef struct {
     char flight_number[STRING_SIZE];
     char origin[STRING_SIZE];
